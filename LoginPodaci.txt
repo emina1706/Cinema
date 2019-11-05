@@ -1,0 +1,11 @@
+USERI
+Username: new_user1
+Password: password:
+
+Username: new_user2
+Password: password:
+
+
+EMAIL:
+Email: cinestar64@gmail.com
+Password: starcine64
