@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="header"></div>           
+                    <div id="navigation">
+                <ul id="Ul1">
+					<li>
+						<a href="Default.aspx">POCETNA</a>
+					</li>
+					<li>
+						<a href="FILMOVI.aspx">FILMOVI</a>                      
+					</li>
+                   <li>
+                       <a href="Kina.aspx">KINA</a>
+					</li>
+                     <li>
+                         <a href="Clanstvo.aspx">CLANSTVO</a>
+					</li>
+                     <li>
+                              <a href="Rezervacije.aspx">REZERVACIJE</a>
+					</li>
+                     <li>
+                         <a href="Kontakt.aspx">KONTAKT</a>
+                           
+					</li>
+				</ul>
+            </div>    
+    
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div id="bottom">
+            <div id="footer">Turisticka agencija eMPIRICA</div>
+        </div>
+
+    </form>
+</body>
+</html>
